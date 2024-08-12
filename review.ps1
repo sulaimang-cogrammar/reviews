@@ -30,5 +30,3 @@ function review {
     git sparse-checkout set $folder
     git pull origin main
 }
-
-review "EC24050014966" "se" 1
