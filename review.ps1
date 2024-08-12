@@ -9,8 +9,6 @@ function get_folder {
 
 function get_url {
     param([String] $student_id, [String] $bootcamp)
-    # git init
-    # git remote add origin 
     return "https://github.com/hyperiondev-bootcamps/$student_id.git"
 }
 
